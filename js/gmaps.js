@@ -2377,9 +2377,7 @@ if (typeof window.google === 'object' && window.google.maps) {
   };
 }
 
-//==========================
-// Array indexOf
-// https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array/indexOf
+
 if (!Array.prototype.indexOf) {
   Array.prototype.indexOf = function (searchElement /*, fromIndex */ ) {
       "use strict";

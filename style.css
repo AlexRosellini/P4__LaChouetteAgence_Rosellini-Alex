@@ -193,11 +193,6 @@ a:hover {
     border-color: rgba(0, 0, 0, .3);
 }
 
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -645,13 +640,43 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
+}
+
+a  {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+} 
+
+.Partenaire {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -50px;
+}
+
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-bottom: -6px;
+    margin-left: -40px;
+}
+
+
+li {
+    padding-left: 40px;
 }
 
 .container {
@@ -677,7 +702,11 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+#bloc-1-hero {
+    color: #ffffff;
 }
 
 .tight-width-whitespace {
@@ -775,16 +804,16 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #2c2c2c;
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #5f5e5e!important;
     color: #FFFFFF!important;
 }
 
