@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("../img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -799,9 +799,6 @@ h4 {
     background-color: #364577;
 }
 
-.bgc-atomic-tangerine {
-    background-color: #F3976C;
-}
 
 .tc-white {
     color: #ffffff!important;
@@ -838,8 +835,10 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.jpg");
+.contact-mail, p
+{
+    font-size: 16px;
+    padding: 40px;
 }
 
 .bg-lines-h2-bg {
@@ -853,6 +852,15 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
+.bg-dots-bg {
+    background-image: url("img/dots-bg.png") ;
+}
+
+.bgc-atomic-tangerine {
+    background-color: #ff915e;
+}
+
 
 @media (max-width: 1024px) {
     .bloc {
