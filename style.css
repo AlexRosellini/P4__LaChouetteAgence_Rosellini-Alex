@@ -41,7 +41,7 @@ a:hover {
 
 .bloc .container {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 4px;
 }
 
 .bloc-lg {
@@ -274,7 +274,7 @@ a:hover {
 
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
-    padding-right: 0;
+    padding-right: 4px;
     padding-left: 0;
 }
 
@@ -355,6 +355,14 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+header {
+    padding: 10px!important;
+}
+
+.navbar-header {
+    padding: 10px;
 }
 
 @media (min-width: 768px) {
@@ -873,9 +881,6 @@ cite {
     font-size: 1px;
 }
 
-
-
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1097,12 +1102,6 @@ cite {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
